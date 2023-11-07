@@ -1,0 +1,42 @@
+/* DetailGame.css */
+
+.detail-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .detail-image {
+    width: 300px; /* Set a fixed width for the image */
+    height: auto; /* Automatically adjust the height to maintain the original aspect ratio */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image horizontally */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .detail-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .detail-description {
+    margin-bottom: 20px;
+    text-align: justify; /* Justify the text for better readability */
+  }
+  
+  .detail-genre {
+    font-weight: bold;
+    margin-bottom: 20px; /* Increase the margin between genre and the footer */
+  }
+  
+  .not-found {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+  }
+  
